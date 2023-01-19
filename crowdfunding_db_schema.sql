@@ -21,7 +21,7 @@ CREATE TABLE "campaign" (
     "goal" numeric(10,2)   NOT NULL,
     "pledged" numeric(10,2)   NOT NULL,
     "outcome" varchar(50)   NOT NULL,
-    "backes_count" int   NOT NULL,
+    "backers_count" int   NOT NULL,
     "country" varchar(10)   NOT NULL,
     "currency" varchar(10)   NOT NULL,
     "launch_date" date   NOT NULL,
